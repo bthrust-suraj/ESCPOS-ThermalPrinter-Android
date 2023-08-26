@@ -78,7 +78,7 @@ allprojects {
 ```
 dependencies {
     ...
-    implementation 'com.github.DantSu:ESCPOS-ThermalPrinter-Android:3.3.0'
+    implementation 'com.github.bthrust-suraj:ESCPOS-ThermalPrinter-Android:3.3.0'
 }
 ```
 
