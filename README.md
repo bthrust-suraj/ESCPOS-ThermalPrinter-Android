@@ -1,8 +1,8 @@
-[![Jitpack package repository - ESCPOS-ThermalPrinter-Android v3.3.0](https://jitpack.io/v/DantSu/ESCPOS-ThermalPrinter-Android.svg)](https://jitpack.io/#DantSu/ESCPOS-ThermalPrinter-Android/3.3.0)
-[![](https://jitpack.io/v/DantSu/ESCPOS-ThermalPrinter-Android/month.svg)](https://jitpack.io/#DantSu/ESCPOS-ThermalPrinter-Android/3.3.0)
-[![](https://jitpack.io/v/DantSu/ESCPOS-ThermalPrinter-Android/week.svg)](https://jitpack.io/#DantSu/ESCPOS-ThermalPrinter-Android/3.3.0)
+[![Jitpack package repository - ESCPOS-ThermalPrinter-Android v3.3.0](https://jitpack.io/v/bthrust-suraj/ESCPOS-ThermalPrinter-Android.svg)](https://jitpack.io/#bthrust-suraj/ESCPOS-ThermalPrinter-Android/3.3.0)
+[![](https://jitpack.io/v/bthrust-suraj/ESCPOS-ThermalPrinter-Android/month.svg)](https://jitpack.io/#bthrust-suraj/ESCPOS-ThermalPrinter-Android/3.3.0)
+[![](https://jitpack.io/v/bthrust-suraj/ESCPOS-ThermalPrinter-Android/week.svg)](https://jitpack.io/#bthrust-suraj/ESCPOS-ThermalPrinter-Android/3.3.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
+https://github.com/bthrust-suraj/ESCPOS-ThermalPrinter-Android
 # Android library for ESC/POS Thermal Printer
 
 Useful library to help Android developers to print with (Bluetooth, TCP, USB) ESC/POS thermal printers.
@@ -56,13 +56,13 @@ Developed for SDK version 16 (Android 4.1 Jelly Bean) and above.
 To test this library, it's pretty simple !
 
 - Create a directory and open a terminal inside
-- Run `git clone https://github.com/DantSu/ESCPOS-ThermalPrinter-Android.git .`
+- Run `git clone https://github.com/bthrust-suraj/ESCPOS-ThermalPrinter-Android.git .`
 - Open the directory with Android Studio
 - Test it !
 
 ## Installation
 
-**Step 1.** Add the [JitPack](https://jitpack.io/#DantSu/ESCPOS-ThermalPrinter-Android/3.3.0) repository to your build file. Add it in your root `/build.gradle` at the end of repositories:
+**Step 1.** Add the [JitPack](https://jitpack.io/#bthrust-suraj/ESCPOS-ThermalPrinter-Android/3.3.0) repository to your build file. Add it in your root `/build.gradle` at the end of repositories:
 
 ```
 allprojects {
@@ -363,7 +363,7 @@ Use `PrinterTextParserImg.bitmapToHexadecimalString` to convert `Drawable`, `Bit
 - `<img>` must be directly preceded by nothing or an alignment tag (`[L][C][R]`).
 - `</img>` must be directly followed by a new line `\n`.
 - You can't write text on a line that contains `<img></img>`.
-- Maximum height of printed image is 256px, If you want to print larger bitmap. Please refer to this solution: [#70](https://github.com/DantSu/ESCPOS-ThermalPrinter-Android/issues/70#issuecomment-714390014)
+- Maximum height of printed image is 256px, If you want to print larger bitmap. Please refer to this solution: [#70](https://github.com/bthrust-suraj/ESCPOS-ThermalPrinter-Android/issues/70#issuecomment-714390014)
 
 ### Barcode
 
@@ -415,7 +415,7 @@ Easy way to get the first bluetooth printer paired / connected.
 Get a list of bluetooth printers.
 - **return** `BluetoothConnection[]`
 
-⚠️ If the arrray returned by `getList()` does not contain you printer or if `selectFirstPaired()` does not return your printer. Read this issue : https://github.com/DantSu/ESCPOS-ThermalPrinter-Android/issues/80#issuecomment-729759832
+⚠️ If the arrray returned by `getList()` does not contain you printer or if `selectFirstPaired()` does not return your printer. Read this issue : https://github.com/bthrust-suraj/ESCPOS-ThermalPrinter-Android/issues/80#issuecomment-729759832
 
 ### Class : `com.dantsu.escposprinter.connection.tcp.TcpConnection`
 
