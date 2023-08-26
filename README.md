@@ -2,7 +2,7 @@
 [![](https://jitpack.io/v/bthrust-suraj/ESCPOS-ThermalPrinter-Android/month.svg)](https://jitpack.io/#bthrust-suraj/ESCPOS-ThermalPrinter-Android/3.3.0)
 [![](https://jitpack.io/v/bthrust-suraj/ESCPOS-ThermalPrinter-Android/week.svg)](https://jitpack.io/#bthrust-suraj/ESCPOS-ThermalPrinter-Android/3.3.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-https://github.com/bthrust-suraj/ESCPOS-ThermalPrinter-Android
+
 # Android library for ESC/POS Thermal Printer
 
 Useful library to help Android developers to print with (Bluetooth, TCP, USB) ESC/POS thermal printers.
