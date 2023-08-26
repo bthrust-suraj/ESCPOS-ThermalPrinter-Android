@@ -212,7 +212,7 @@ public class EscPosPrinter extends EscPosPrinterSize {
      *
      * @return Fluent interface
      */
-    public EscPosPrinter openCashBoxDrawer() {
+    public EscPosPrinter openCashBoxDrawer() throws EscPosConnectionException {
         if (this.printer == null) {
             return this;
         }
