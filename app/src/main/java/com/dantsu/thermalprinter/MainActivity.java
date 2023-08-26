@@ -1,4 +1,4 @@
-package com.dantsu.thermalprinter;
+package com.bthrust.thermalprinter;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,18 +22,18 @@ import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.dantsu.escposprinter.connection.DeviceConnection;
-import com.dantsu.escposprinter.connection.bluetooth.BluetoothConnection;
-import com.dantsu.escposprinter.connection.bluetooth.BluetoothPrintersConnections;
-import com.dantsu.escposprinter.connection.tcp.TcpConnection;
-import com.dantsu.escposprinter.connection.usb.UsbConnection;
-import com.dantsu.escposprinter.connection.usb.UsbPrintersConnections;
-import com.dantsu.escposprinter.textparser.PrinterTextParserImg;
-import com.dantsu.thermalprinter.async.AsyncBluetoothEscPosPrint;
-import com.dantsu.thermalprinter.async.AsyncEscPosPrint;
-import com.dantsu.thermalprinter.async.AsyncEscPosPrinter;
-import com.dantsu.thermalprinter.async.AsyncTcpEscPosPrint;
-import com.dantsu.thermalprinter.async.AsyncUsbEscPosPrint;
+import com.bthrust.escposprinter.connection.DeviceConnection;
+import com.bthrust.escposprinter.connection.bluetooth.BluetoothConnection;
+import com.bthrust.escposprinter.connection.bluetooth.BluetoothPrintersConnections;
+import com.bthrust.escposprinter.connection.tcp.TcpConnection;
+import com.bthrust.escposprinter.connection.usb.UsbConnection;
+import com.bthrust.escposprinter.connection.usb.UsbPrintersConnections;
+import com.bthrust.escposprinter.textparser.PrinterTextParserImg;
+import com.bthrust.thermalprinter.async.AsyncBluetoothEscPosPrint;
+import com.bthrust.thermalprinter.async.AsyncEscPosPrint;
+import com.bthrust.thermalprinter.async.AsyncEscPosPrinter;
+import com.bthrust.thermalprinter.async.AsyncTcpEscPosPrint;
+import com.bthrust.thermalprinter.async.AsyncUsbEscPosPrint;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -299,7 +299,7 @@ public class MainActivity extends AppCompatActivity {
                 "\n" +
                 "[C]<barcode type='ean13' height='10'>831254784551</barcode>\n" +
                 "[L]\n" +
-                "[C]<qrcode size='20'>https://dantsu.com/</qrcode>\n"
+                "[C]<qrcode size='20'>https://bthrust.com/</qrcode>\n"
         );
     }
 }

@@ -1,10 +1,10 @@
-package com.dantsu.thermalprinter.async;
+package com.bthrust.thermalprinter.async;
 
 import android.content.Context;
 
-import com.dantsu.escposprinter.connection.DeviceConnection;
-import com.dantsu.escposprinter.connection.bluetooth.BluetoothPrintersConnections;
-import com.dantsu.escposprinter.exceptions.EscPosConnectionException;
+import com.bthrust.escposprinter.connection.DeviceConnection;
+import com.bthrust.escposprinter.connection.bluetooth.BluetoothPrintersConnections;
+import com.bthrust.escposprinter.exceptions.EscPosConnectionException;
 
 public class AsyncBluetoothEscPosPrint extends AsyncEscPosPrint {
     public AsyncBluetoothEscPosPrint(Context context) {

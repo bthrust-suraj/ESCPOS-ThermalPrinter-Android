@@ -1,8 +1,8 @@
-package com.dantsu.escposprinter.textparser;
+package com.bthrust.escposprinter.textparser;
 
-import com.dantsu.escposprinter.EscPosPrinterCommands;
-import com.dantsu.escposprinter.exceptions.EscPosConnectionException;
-import com.dantsu.escposprinter.exceptions.EscPosEncodingException;
+import com.bthrust.escposprinter.EscPosPrinterCommands;
+import com.bthrust.escposprinter.exceptions.EscPosConnectionException;
+import com.bthrust.escposprinter.exceptions.EscPosEncodingException;
 
 public interface IPrinterTextParserElement {
     int length() throws EscPosEncodingException;

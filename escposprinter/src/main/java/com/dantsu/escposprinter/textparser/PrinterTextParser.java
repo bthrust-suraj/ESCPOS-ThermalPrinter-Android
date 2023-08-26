@@ -1,12 +1,12 @@
-package com.dantsu.escposprinter.textparser;
+package com.bthrust.escposprinter.textparser;
 
 import java.util.Arrays;
 
-import com.dantsu.escposprinter.EscPosPrinter;
-import com.dantsu.escposprinter.EscPosPrinterCommands;
-import com.dantsu.escposprinter.exceptions.EscPosBarcodeException;
-import com.dantsu.escposprinter.exceptions.EscPosEncodingException;
-import com.dantsu.escposprinter.exceptions.EscPosParserException;
+import com.bthrust.escposprinter.EscPosPrinter;
+import com.bthrust.escposprinter.EscPosPrinterCommands;
+import com.bthrust.escposprinter.exceptions.EscPosBarcodeException;
+import com.bthrust.escposprinter.exceptions.EscPosEncodingException;
+import com.bthrust.escposprinter.exceptions.EscPosParserException;
 
 public class PrinterTextParser {
     

@@ -1,4 +1,4 @@
-package com.dantsu.escposprinter;
+package com.bthrust.escposprinter;
 
 
 import android.graphics.Bitmap;

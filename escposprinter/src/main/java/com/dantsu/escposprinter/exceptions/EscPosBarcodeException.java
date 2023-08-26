@@ -1,4 +1,4 @@
-package com.dantsu.escposprinter.exceptions;
+package com.bthrust.escposprinter.exceptions;
 
 public class EscPosBarcodeException extends Exception {
     public EscPosBarcodeException(String errorMessage) {

@@ -1,4 +1,4 @@
-package com.dantsu.escposprinter.connection.usb;
+package com.bthrust.escposprinter.connection.usb;
 
 import android.content.Context;
 import android.hardware.usb.UsbConstants;
@@ -6,7 +6,7 @@ import android.hardware.usb.UsbDevice;
 
 import androidx.annotation.Nullable;
 
-import com.dantsu.escposprinter.exceptions.EscPosConnectionException;
+import com.bthrust.escposprinter.exceptions.EscPosConnectionException;
 
 public class UsbPrintersConnections extends UsbConnections {
 

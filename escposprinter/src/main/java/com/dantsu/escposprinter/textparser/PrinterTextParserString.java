@@ -1,12 +1,12 @@
-package com.dantsu.escposprinter.textparser;
+package com.bthrust.escposprinter.textparser;
 
 import java.io.UnsupportedEncodingException;
 import java.util.Arrays;
 
-import com.dantsu.escposprinter.EscPosCharsetEncoding;
-import com.dantsu.escposprinter.EscPosPrinter;
-import com.dantsu.escposprinter.EscPosPrinterCommands;
-import com.dantsu.escposprinter.exceptions.EscPosEncodingException;
+import com.bthrust.escposprinter.EscPosCharsetEncoding;
+import com.bthrust.escposprinter.EscPosPrinter;
+import com.bthrust.escposprinter.EscPosPrinterCommands;
+import com.bthrust.escposprinter.exceptions.EscPosEncodingException;
 
 public class PrinterTextParserString implements IPrinterTextParserElement {
     private EscPosPrinter printer;

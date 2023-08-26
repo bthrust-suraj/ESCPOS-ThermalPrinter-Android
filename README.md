@@ -29,11 +29,11 @@ Useful library to help Android developers to print with (Bluetooth, TCP, USB) ES
 - [Charset encoding](#charset-encoding)
 - [Formatted text : syntax guide](#formatted-text--syntax-guide)
 - [Class list](#class-list)
-  - [BluetoothPrintersConnections](#user-content-class--comdantsuescposprinterconnectionbluetoothbluetoothprintersconnections)
-  - [UsbPrintersConnections](#user-content-class--comdantsuescposprinterconnectionusbusbprintersconnections)
-  - [EscPosPrinter](#user-content-class--comdantsuescposprinterescposprinter)
-  - [PrinterTextParserImg](#user-content-class--comdantsuescposprintertextparserprintertextparserimg)
-  - [EscPosCharsetEncoding](#user-content-class--comdantsuescposprinterescposcharsetencoding)
+  - [BluetoothPrintersConnections](#user-content-class--combthrustescposprinterconnectionbluetoothbluetoothprintersconnections)
+  - [UsbPrintersConnections](#user-content-class--combthrustescposprinterconnectionusbusbprintersconnections)
+  - [EscPosPrinter](#user-content-class--combthrustescposprinterescposprinter)
+  - [PrinterTextParserImg](#user-content-class--combthrustescposprintertextparserprintertextparserimg)
+  - [EscPosCharsetEncoding](#user-content-class--combthrustescposprinterescposcharsetencoding)
 - [Projects using this library](#projects-using-this-library)
 - [Contributing](#contributing)
 
@@ -137,13 +137,13 @@ printer
         "[L]Tel : +33801201456\n" +
         "[L]\n" +
         "[C]<barcode type='ean13' height='10'>831254784551</barcode>\n" +
-        "[C]<qrcode size='20'>https://dantsu.com/</qrcode>"
+        "[C]<qrcode size='20'>https://bthrust.com/</qrcode>"
     );
 ```
 
 Below a picture of the receipt printed with the code above :
 
-![Example of a printed receipt](https://dantsu.com/files/receipt-thermal-printer.png?1)
+![Example of a printed receipt](https://bthrust.com/files/receipt-thermal-printer.png?1)
 
 ## TCP
 
@@ -187,7 +187,7 @@ new Thread(new Runnable() {
                     "[L]Tel : +33801201456\n" +
                     "[L]\n" +
                     "[C]<barcode type='ean13' height='10'>831254784551</barcode>\n" +
-                    "[C]<qrcode size='20'>https://dantsu.com/</qrcode>"
+                    "[C]<qrcode size='20'>https://bthrust.com/</qrcode>"
                 );
         } catch (Exception e) {
             e.printStackTrace();
@@ -273,7 +273,7 @@ printer
         "[L]Tel : +33801201456\n" +
         "[L]\n" +
         "[C]<barcode type='ean13' height='10'>831254784551</barcode>\n" +
-        "[C]<qrcode size='20'>https://dantsu.com/</qrcode>"
+        "[C]<qrcode size='20'>https://bthrust.com/</qrcode>"
     );
 ```
 
@@ -391,7 +391,7 @@ Prints a barcode 128 (height: 10mm, width: ~40mm, text: displayed above).
 
 `<qrcode></qrcode>` tag allows you to print a QR code. Inside the tag you need to write the QR code data.
 
-- `<qrcode>https://dantsu.com/</qrcode>` :
+- `<qrcode>https://bthrust.com/</qrcode>` :
 Prints a QR code with a width and height of 20 millimeters.
 - `<qrcode size='25'>123456789</qrcode>` :
 Prints a QR code with a width and height of 25 millimeters.
@@ -405,7 +405,7 @@ Prints a QR code with a width and height of 25 millimeters.
 
 ## Class list
 
-### Class : `com.dantsu.escposprinter.connection.bluetooth.BluetoothPrintersConnections`
+### Class : `com.bthrust.escposprinter.connection.bluetooth.BluetoothPrintersConnections`
 
 #### **Static** Method : `selectFirstPaired()`
 Easy way to get the first bluetooth printer paired / connected.
@@ -417,14 +417,14 @@ Get a list of bluetooth printers.
 
 ⚠️ If the arrray returned by `getList()` does not contain you printer or if `selectFirstPaired()` does not return your printer. Read this issue : https://github.com/bthrust-suraj/ESCPOS-ThermalPrinter-Android/issues/80#issuecomment-729759832
 
-### Class : `com.dantsu.escposprinter.connection.tcp.TcpConnection`
+### Class : `com.bthrust.escposprinter.connection.tcp.TcpConnection`
 
 #### Constructor : `TcpConnection(String address, int port[, int timeout])`
 - **param** `String address` : Targeted ip address
 - **param** `int port` : Targeted tcp port
 - **param** `int timeout` *(optional)* : Connection timeout (default : 30)
 
-### Class : `com.dantsu.escposprinter.connection.usb.UsbPrintersConnections`
+### Class : `com.bthrust.escposprinter.connection.usb.UsbPrintersConnections`
 
 #### **Static** Method : `selectFirstConnected()`
 Easy way to get the first USB printer connected.
@@ -434,7 +434,7 @@ Easy way to get the first USB printer connected.
 Get a list of USB printers.
 - **return** `UsbConnection[]`
 
-### Class : `com.dantsu.escposprinter.EscPosPrinter`
+### Class : `com.bthrust.escposprinter.EscPosPrinter`
 
 #### Constructor : `EscPosPrinter(DeviceConnection printer, int printerDpi, float printingWidthMM, int nbrCharactersPerLine [, EscPosCharsetEncoding charsetEncoding])`
 - **param** `DeviceConnection printer` : Instance of a connected printer
@@ -533,7 +533,7 @@ Convert Bitmap object to ESC/POS image.
 - **param** `boolean gradient` : `false` Black and white image, `true` Grayscale image
 - **return** `byte[]` : Bytes contain the image in ESC/POS command
 
-### Class : `com.dantsu.escposprinter.textparser.PrinterTextParserImg`
+### Class : `com.bthrust.escposprinter.textparser.PrinterTextParserImg`
 
 #### **Static** Method : `bitmapToHexadecimalString(Printer printer, Drawable drawable [, boolean gradient])`
 Convert Drawable instance to a hexadecimal string of the image data.
@@ -566,7 +566,7 @@ Convert hexadecimal string of the image data to bytes ESC/POS command.
 - **param** `String hexString` : Hexadecimal string of the image data.
 - **return** `byte[]` : Bytes contain the image in ESC/POS command.
 
-### Class : `com.dantsu.escposprinter.EscPosCharsetEncoding`
+### Class : `com.bthrust.escposprinter.EscPosCharsetEncoding`
 
 #### Constructor : `EscPosCharsetEncoding(String charsetName, int escPosCharsetId)`
 - **param** `charsetName` Name of charset encoding (Ex: ISO-8859-1)

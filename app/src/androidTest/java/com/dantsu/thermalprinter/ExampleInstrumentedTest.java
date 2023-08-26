@@ -1,4 +1,4 @@
-package com.dantsu.thermalprinter;
+package com.bthrust.thermalprinter;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.dantsu.thermalprinter", appContext.getPackageName());
+        assertEquals("com.bthrust.thermalprinter", appContext.getPackageName());
     }
 }

@@ -1,7 +1,7 @@
-package com.dantsu.thermalprinter.async;
+package com.bthrust.thermalprinter.async;
 
-import com.dantsu.escposprinter.EscPosPrinterSize;
-import com.dantsu.escposprinter.connection.DeviceConnection;
+import com.bthrust.escposprinter.EscPosPrinterSize;
+import com.bthrust.escposprinter.connection.DeviceConnection;
 
 public class AsyncEscPosPrinter extends EscPosPrinterSize {
     private DeviceConnection printerConnection;

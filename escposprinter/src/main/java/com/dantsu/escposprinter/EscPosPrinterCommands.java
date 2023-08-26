@@ -1,4 +1,4 @@
-package com.dantsu.escposprinter;
+package com.bthrust.escposprinter;
 
 import android.graphics.Bitmap;
 
@@ -6,11 +6,11 @@ import java.io.UnsupportedEncodingException;
 import java.util.Arrays;
 import java.util.EnumMap;
 
-import com.dantsu.escposprinter.barcode.Barcode;
-import com.dantsu.escposprinter.connection.DeviceConnection;
-import com.dantsu.escposprinter.exceptions.EscPosBarcodeException;
-import com.dantsu.escposprinter.exceptions.EscPosConnectionException;
-import com.dantsu.escposprinter.exceptions.EscPosEncodingException;
+import com.bthrust.escposprinter.barcode.Barcode;
+import com.bthrust.escposprinter.connection.DeviceConnection;
+import com.bthrust.escposprinter.exceptions.EscPosBarcodeException;
+import com.bthrust.escposprinter.exceptions.EscPosConnectionException;
+import com.bthrust.escposprinter.exceptions.EscPosEncodingException;
 import com.google.zxing.EncodeHintType;
 import com.google.zxing.WriterException;
 import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;

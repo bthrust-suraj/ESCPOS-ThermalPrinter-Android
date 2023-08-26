@@ -1,4 +1,4 @@
-package com.dantsu.escposprinter;
+package com.bthrust.escposprinter;
 
 public class EscPosCharsetEncoding {
     private String charsetName;

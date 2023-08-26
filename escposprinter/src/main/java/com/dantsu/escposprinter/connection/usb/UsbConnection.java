@@ -1,10 +1,10 @@
-package com.dantsu.escposprinter.connection.usb;
+package com.bthrust.escposprinter.connection.usb;
 
 import android.hardware.usb.UsbDevice;
 import android.hardware.usb.UsbManager;
 
-import com.dantsu.escposprinter.connection.DeviceConnection;
-import com.dantsu.escposprinter.exceptions.EscPosConnectionException;
+import com.bthrust.escposprinter.connection.DeviceConnection;
+import com.bthrust.escposprinter.exceptions.EscPosConnectionException;
 
 import java.io.IOException;
 

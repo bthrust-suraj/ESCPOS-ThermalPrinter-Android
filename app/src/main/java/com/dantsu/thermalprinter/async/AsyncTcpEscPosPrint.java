@@ -1,4 +1,4 @@
-package com.dantsu.thermalprinter.async;
+package com.bthrust.thermalprinter.async;
 
 import android.content.Context;
 

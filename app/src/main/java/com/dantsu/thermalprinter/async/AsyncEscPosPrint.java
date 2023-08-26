@@ -1,17 +1,17 @@
-package com.dantsu.thermalprinter.async;
+package com.bthrust.thermalprinter.async;
 
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.AsyncTask;
 
-import com.dantsu.escposprinter.EscPosCharsetEncoding;
-import com.dantsu.escposprinter.EscPosPrinter;
-import com.dantsu.escposprinter.connection.DeviceConnection;
-import com.dantsu.escposprinter.exceptions.EscPosBarcodeException;
-import com.dantsu.escposprinter.exceptions.EscPosConnectionException;
-import com.dantsu.escposprinter.exceptions.EscPosEncodingException;
-import com.dantsu.escposprinter.exceptions.EscPosParserException;
+import com.bthrust.escposprinter.EscPosCharsetEncoding;
+import com.bthrust.escposprinter.EscPosPrinter;
+import com.bthrust.escposprinter.connection.DeviceConnection;
+import com.bthrust.escposprinter.exceptions.EscPosBarcodeException;
+import com.bthrust.escposprinter.exceptions.EscPosConnectionException;
+import com.bthrust.escposprinter.exceptions.EscPosEncodingException;
+import com.bthrust.escposprinter.exceptions.EscPosParserException;
 
 import java.lang.ref.WeakReference;
 

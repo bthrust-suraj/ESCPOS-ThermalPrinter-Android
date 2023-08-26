@@ -1,4 +1,4 @@
-package com.dantsu.escposprinter.connection.bluetooth;
+package com.bthrust.escposprinter.connection.bluetooth;
 
 import android.annotation.SuppressLint;
 import android.bluetooth.BluetoothAdapter;
@@ -6,8 +6,8 @@ import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;
 import android.os.ParcelUuid;
 
-import com.dantsu.escposprinter.connection.DeviceConnection;
-import com.dantsu.escposprinter.exceptions.EscPosConnectionException;
+import com.bthrust.escposprinter.connection.DeviceConnection;
+import com.bthrust.escposprinter.exceptions.EscPosConnectionException;
 
 import java.io.IOException;
 import java.util.Arrays;

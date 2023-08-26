@@ -1,7 +1,7 @@
-package com.dantsu.escposprinter.connection.tcp;
+package com.bthrust.escposprinter.connection.tcp;
 
-import com.dantsu.escposprinter.connection.DeviceConnection;
-import com.dantsu.escposprinter.exceptions.EscPosConnectionException;
+import com.bthrust.escposprinter.connection.DeviceConnection;
+import com.bthrust.escposprinter.exceptions.EscPosConnectionException;
 
 import java.io.IOException;
 import java.net.InetAddress;

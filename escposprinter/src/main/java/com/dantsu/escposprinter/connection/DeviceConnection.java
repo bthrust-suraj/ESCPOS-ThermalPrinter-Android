@@ -1,6 +1,6 @@
-package com.dantsu.escposprinter.connection;
+package com.bthrust.escposprinter.connection;
 
-import com.dantsu.escposprinter.exceptions.EscPosConnectionException;
+import com.bthrust.escposprinter.exceptions.EscPosConnectionException;
 
 import java.io.IOException;
 import java.io.OutputStream;

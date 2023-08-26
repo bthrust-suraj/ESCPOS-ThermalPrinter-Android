@@ -1,7 +1,7 @@
-package com.dantsu.escposprinter.barcode;
+package com.bthrust.escposprinter.barcode;
 
-import com.dantsu.escposprinter.EscPosPrinterSize;
-import com.dantsu.escposprinter.exceptions.EscPosBarcodeException;
+import com.bthrust.escposprinter.EscPosPrinterSize;
+import com.bthrust.escposprinter.exceptions.EscPosBarcodeException;
 
 public abstract class Barcode {
 

@@ -1,4 +1,4 @@
-package com.dantsu.escposprinter.exceptions;
+package com.bthrust.escposprinter.exceptions;
 
 public class EscPosParserException extends Exception {
     public EscPosParserException(String errorMessage) {
