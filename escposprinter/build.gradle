@@ -3,8 +3,8 @@ plugins {
     id 'maven-publish'
 }
 
-def libraryVersionCode = 3003000
-def libraryVersionName = "3.3.0"
+def libraryVersionCode = 1000000
+def libraryVersionName = "1.0.0"
 
 android {
     compileSdkVersion 33
@@ -43,7 +43,7 @@ afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
-                groupId = 'com.github.DantSu'
+                groupId = 'com.github.bthrust-suraj'
                 artifactId = 'ESCPOS-ThermalPrinter-Android'
                 version = libraryVersionName
                 pom {

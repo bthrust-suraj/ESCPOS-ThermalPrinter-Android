@@ -1,6 +1,6 @@
-[![Jitpack package repository - ESCPOS-ThermalPrinter-Android v3.3.0](https://jitpack.io/v/bthrust-suraj/ESCPOS-ThermalPrinter-Android.svg)](https://jitpack.io/#bthrust-suraj/ESCPOS-ThermalPrinter-Android/3.3.0)
-[![](https://jitpack.io/v/bthrust-suraj/ESCPOS-ThermalPrinter-Android/month.svg)](https://jitpack.io/#bthrust-suraj/ESCPOS-ThermalPrinter-Android/3.3.0)
-[![](https://jitpack.io/v/bthrust-suraj/ESCPOS-ThermalPrinter-Android/week.svg)](https://jitpack.io/#bthrust-suraj/ESCPOS-ThermalPrinter-Android/3.3.0)
+[![Jitpack package repository - ESCPOS-ThermalPrinter-Android v1.0.0](https://jitpack.io/v/bthrust-suraj/ESCPOS-ThermalPrinter-Android.svg)](https://jitpack.io/#bthrust-suraj/ESCPOS-ThermalPrinter-Android/1.0.0)
+[![](https://jitpack.io/v/bthrust-suraj/ESCPOS-ThermalPrinter-Android/month.svg)](https://jitpack.io/#bthrust-suraj/ESCPOS-ThermalPrinter-Android/1.0.0)
+[![](https://jitpack.io/v/bthrust-suraj/ESCPOS-ThermalPrinter-Android/week.svg)](https://jitpack.io/#bthrust-suraj/ESCPOS-ThermalPrinter-Android/1.0.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Android library for ESC/POS Thermal Printer
@@ -62,7 +62,7 @@ To test this library, it's pretty simple !
 
 ## Installation
 
-**Step 1.** Add the [JitPack](https://jitpack.io/#bthrust-suraj/ESCPOS-ThermalPrinter-Android/3.3.0) repository to your build file. Add it in your root `/build.gradle` at the end of repositories:
+**Step 1.** Add the [JitPack](https://jitpack.io/#bthrust-suraj/ESCPOS-ThermalPrinter-Android/1.0.0) repository to your build file. Add it in your root `/build.gradle` at the end of repositories:
 
 ```
 allprojects {
@@ -78,7 +78,7 @@ allprojects {
 ```
 dependencies {
     ...
-    implementation 'com.github.bthrust-suraj:ESCPOS-ThermalPrinter-Android:3.3.0'
+    implementation 'com.github.bthrust-suraj:ESCPOS-ThermalPrinter-Android:1.0.0'
 }
 ```
 
@@ -377,7 +377,7 @@ Prints a EAN8 barcode (height: 10mm, width: ~70% printer width, text: displayed 
 Prints a UPC-A barcode (height: 20mm, width: ~70% printer width, text: displayed below).
 - `<barcode type='upce' height='25' width='50' text='none'>512789</barcode>` : **(6 numbers)**  
 Prints a UPC-E barcode (height: 25mm, width: ~50mm, text: hidden).
-- `<barcode type='128' width='40' text='above'>DantSu</barcode>` : **(string)**  
+- `<barcode type='128' width='40' text='above'>bthrust-suraj</barcode>` : **(string)**  
 Prints a barcode 128 (height: 10mm, width: ~40mm, text: displayed above).
 
 **⚠ WARNING ⚠** : This tag has several constraints :
