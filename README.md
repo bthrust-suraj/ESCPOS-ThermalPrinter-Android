@@ -505,6 +505,10 @@ Print a formatted text, feed paper (`mmFeedPaper` millimeters), cut the paper an
 - **param** `float mmFeedPaper` : Millimeter distance feed paper at the end.
 - **return** `Printer` : Fluent interface
 
+#### Method : `openCashBoxDrawer()`
+Open the cash box.
+- **return** `Printer` : Fluent interface
+
 #### Method : `printFormattedText(String text, int dotsFeedPaper)`
 Print a formatted text and feed paper (`dotsFeedPaper` dots). Read the ["Formatted Text : Syntax guide" section](#formatted-text--syntax-guide) for more information about text formatting options.
 - **param** `String text` : Formatted text to be printed.

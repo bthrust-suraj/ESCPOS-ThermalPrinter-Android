@@ -208,6 +208,19 @@ public class EscPosPrinter extends EscPosPrinterSize {
     }
 
     /**
+     * Open the cash box drawer.
+     *
+     * @return Fluent interface
+     */
+    public EscPosPrinter openCashBoxDrawer() throws EscPosConnectionException, EscPosParserException, EscPosEncodingException, EscPosBarcodeException {
+        if (this.printer == null) {
+            return this;
+        }
+        this.printer.openCashBox();
+        return this;
+    }
+
+    /**
      * @return Charset encoding
      */
     public EscPosCharsetEncoding getEncoding() {
